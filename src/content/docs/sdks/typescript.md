@@ -47,10 +47,10 @@ console.log(data.id);
 
 ## Methods
 
-- `duta.emails.send(options)` — [send an email](/api-reference/send/)
-- `duta.emails.get(id)` — [retrieve an email](/api-reference/get/)
-- `duta.emails.list({ page, limit })` — [list emails](/api-reference/list/)
-- `verifyWebhook(payload, signature, secret)` — [verify a webhook](/guides/webhooks/)
+- `duta.emails.send(options)`: [send an email](/api-reference/send/)
+- `duta.emails.get(id)`: [retrieve an email](/api-reference/get/)
+- `duta.emails.list({ page, limit })`: [list emails](/api-reference/list/)
+- `verifyWebhook(payload, signature, secret)`: [verify a webhook](/guides/webhooks/)
 
 ## Cloudflare Workers
 

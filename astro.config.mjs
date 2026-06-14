@@ -33,7 +33,12 @@ export default defineConfig({
         },
         {
           label: 'SDKs',
-          items: [{ label: 'TypeScript / JavaScript', slug: 'sdks/typescript' }],
+          items: [
+            { label: 'TypeScript / JavaScript', slug: 'sdks/typescript' },
+            { label: 'Python', slug: 'sdks/python' },
+            { label: 'PHP', slug: 'sdks/php' },
+            { label: '.NET / C#', slug: 'sdks/dotnet' },
+          ],
         },
         {
           label: 'Guides',
