@@ -12,7 +12,7 @@ export default defineConfig({
       logo: { src: './src/assets/icon.svg', alt: 'Duta' },
       favicon: '/favicon.png',
       social: [
-        { icon: 'github', label: 'GitHub', href: 'https://github.com/Fawwazs17/duta-js' },
+        { icon: 'github', label: 'GitHub', href: 'https://github.com/indra-sh/duta-js' },
       ],
       sidebar: [
         {
