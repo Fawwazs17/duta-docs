@@ -63,4 +63,4 @@ app.post("/welcome", async (c) => {
 });
 ```
 
-Source and full reference: [github.com/indra-sh/duta-js](https://github.com/indra-sh/duta-js).
+Package: [npmjs.com/package/@duta/sdk](https://www.npmjs.com/package/@duta/sdk) · Source: [github.com/indra-sh/duta-js](https://github.com/indra-sh/duta-js).

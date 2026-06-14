@@ -53,4 +53,4 @@ catch (DutaException e)
 
 Pass your own `HttpClient` to the constructor to reuse a shared instance in long-running apps.
 
-Source: [github.com/indra-sh/duta-dotnet](https://github.com/indra-sh/duta-dotnet).
+Package: [nuget.org/packages/Duta.Net](https://www.nuget.org/packages/Duta.Net) · Source: [github.com/indra-sh/duta-dotnet](https://github.com/indra-sh/duta-dotnet).

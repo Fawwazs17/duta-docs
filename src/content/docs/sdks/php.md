@@ -49,4 +49,4 @@ try {
 - `$duta->emails->get($id)`: [retrieve an email](/api-reference/get/). Requires a full-access key.
 - `$duta->emails->list($page = 1, $limit = 20)`: [list emails](/api-reference/list/). Requires a full-access key.
 
-Source: [github.com/indra-sh/duta-php](https://github.com/indra-sh/duta-php).
+Package: [packagist.org/packages/duta/duta-php](https://packagist.org/packages/duta/duta-php) · Source: [github.com/indra-sh/duta-php](https://github.com/indra-sh/duta-php).
