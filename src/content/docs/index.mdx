@@ -1,0 +1,49 @@
+---
+title: Duta Docs
+description: Transactional email for Malaysian developers.
+template: splash
+hero:
+  tagline: Transactional email for Malaysian developers. Simple API, MYR pricing, SES-powered delivery.
+  actions:
+    - text: Quickstart
+      link: /quickstart/
+      icon: right-arrow
+    - text: API reference
+      link: /api-reference/send/
+      icon: open-book
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Get started
+
+<CardGrid stagger>
+	<Card title="Quickstart" icon="rocket">
+		Send your first email in five minutes. [Start here](/quickstart/).
+	</Card>
+	<Card title="Install the SDK" icon="seti:typescript">
+		`npm install @duta/sdk` for a typed client. [SDK docs](/sdks/typescript/).
+	</Card>
+	<Card title="API reference" icon="open-book">
+		Every endpoint with curl and SDK examples. [Send an email](/api-reference/send/).
+	</Card>
+	<Card title="Coming from Resend?" icon="random">
+		Migrate in a few minutes. [Read the guide](/guides/migrate-from-resend/).
+	</Card>
+</CardGrid>
+
+## Send an email
+
+```ts
+import { Duta } from "@duta/sdk";
+
+const duta = new Duta("duta_live_xxx");
+
+await duta.emails.send({
+  from: "hello@yourdomain.com",
+  to: "user@example.com",
+  subject: "Hello from Duta",
+  html: "<p>It works!</p>",
+});
+```
